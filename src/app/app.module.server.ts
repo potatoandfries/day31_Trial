@@ -3,6 +3,7 @@ import { ServerModule } from '@angular/platform-server';
 
 import { AppModule } from './app.module';
 import { AppComponent } from './app.component';
+import { PictureComponent } from './components/picture.component';
 
 @NgModule({
   imports: [

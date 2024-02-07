@@ -1,0 +1,18 @@
+
+<h2>History</h2>
+
+<div *ngIf="history.length <= 0">
+  <h2>Nothing yet!</h2>
+</div>
+
+<div *ngIf="history.length > 0">
+  <ul>
+    <li *ngFor="let h of history">
+      {{ h }} 
+    <!-- In Angular, the double curly braces {{ }} are used for interpolation, 
+    a feature that allows you to embed expressions within the template to display dynamic data. 
+    The expressions inside the curly braces are evaluated,
+    and their values are then inserted into the HTML.-->
+    </li>
+  </ul>
+</div>
